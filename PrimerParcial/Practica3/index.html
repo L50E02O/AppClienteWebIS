@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard Personal</title>
+    <title>Trabajo 3</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-100 font-sans text-gray-800">
@@ -12,10 +12,10 @@
     <div class="grid grid-cols-6 min-h-screen">
 
       <!-- Sidebar -->
-      <aside class="col-span-1 bg-blue-900 text-white p-6 flex flex-col gap-4">
+      <aside class="col-span-1 bg-purple-900 text-white p-6 flex flex-col gap-4">
         <div class="flex items-center gap-2">
-          <img src="/vite.svg" alt="Logo" class="w-8 h-8">
-          <span class="font-bold text-lg">Mi Dashboard</span>
+          <img src="./src/ImagenMia.jpg" alt="Logo" class="w-12 h-12 rounded-full">
+          <span class="font-bold text-lg">Leo Holguin</span>
         </div>
           <nav class="flex flex-col gap-3 mt-6">
             <a href="./pages/sobreMi.html" class="hover:text-blue-300">Sobre Mí</a>
@@ -30,9 +30,11 @@
 
         <!-- Encabezado -->
       <header class="flex justify-between items-center bg-white p-4 rounded-lg shadow">
-        <h1 class="text-2xl font-semibold">Dashboard de Portafolio</h1>
+        <h1 class="text-2xl font-semibold">Portafolio</h1>
         <div>
-          <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Descargar CV</button>
+          <a href="./src/MiCV.pdf" download="Mi_CV.pdf">
+            <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-blue-700">Descargar CV</button>
+          </a>
         </div>
       </header>
 
@@ -40,17 +42,17 @@
         <section class="grid grid-cols-3 gap-4">
           <article class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-2">Proyectos realizados</h2>
-            <p class="text-gray-600 text-sm">3</p>
+            <p class="text-gray-600 text-sm">7</p>
           </article>
 
           <article class="bg-white p-4 rounded-lg shadow">
-            <h2 class="text-lg font-semibold mb-2">Trabajo realizados</h2>
+            <h2 class="text-lg font-semibold mb-2">Proyecto actuales</h2>
             <p class="text-gray-600 text-sm">4</p>
           </article>
 
           <article class="bg-white p-4 rounded-lg shadow">
-            <h2 class="text-lg font-semibold mb-2">Dinero ganado</h2>
-            <p class="text-gray-600 text-sm">2400</p>
+            <h2 class="text-lg font-semibold mb-2">Proyectos en espera</h2>
+            <p class="text-gray-600 text-sm">2</p>
           </article>
         </section>
 
@@ -78,7 +80,7 @@
 
         <!-- Pie de Página -->
         <footer class="text-center text-sm text-gray-500 mt-4">
-          &copy; 2025 Mi Dashboard. Contacto: contacto@midashboard.com
+          &copy; 2025 Mi Dashboard. Contacto: lechuguita13140@gmail.com
         </footer>
 
       </main>
