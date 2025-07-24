@@ -1,13 +1,27 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import vistaCartelera from './views/vistaCartelera.vue'
+import IncidenciaView from './view/IncidenciaView.vue';
+import vistaComerciante from './view/vistaComerciante.vue';
+import vistaNotificacion from './view/vistaNotificacion.vue';
 </script>
 
 <template>
 
-  <vistaCartelera />
+  <!-- hecho por Neysser Delgado Meza -->
+  <IncidenciaView>
+  </IncidenciaView>
+
+  <!-- hecho por Leo Holguin Chavez -->
+  <vistaComerciante>
+  </vistaComerciante>
+
+  <!-- Fue hecho por: Reyes Jeremy -->
+  <vistaNotificacion>
+
+  </vistaNotificacion>
+
 
 </template>
 
 <style scoped>
+
 </style>
